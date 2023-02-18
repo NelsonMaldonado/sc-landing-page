@@ -63,7 +63,7 @@ const Button = styled.a`
 `
 
 const BlankDiv = styled.div`
-  /* border: 2px red solid; */
+  border: 2px red solid;
   width: 40px;
   height: 40px;
 `
