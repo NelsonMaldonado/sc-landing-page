@@ -69,7 +69,7 @@ const BlankDiv = styled.div`
 `
 
 const ButtonImage = styled.img`
-  /* border: 2px red solid; */
+  border: 2px red solid;
   width: 40px;
   height: 40px;
 `
