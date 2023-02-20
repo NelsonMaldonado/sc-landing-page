@@ -63,18 +63,18 @@ const Button = styled.a`
 `
 
 const BlankDiv = styled.div`
-  border: 2px red solid;
+  // border: 2px red solid;
   width: 40px;
   height: 40px;
 `
 
 const ButtonImage = styled.img`
-  border: 2px red solid;
+  // border: 2px red solid;
   width: 40px;
   height: 40px;
 `
 const ButtonText = styled.div`
-  /* border: 2px green solid; */
+  // /* border: 2px green solid; */
   padding: 10px;
 `
 
