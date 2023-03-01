@@ -92,11 +92,11 @@ function App() {
       </AvatarContainer>
       <p style={{ color: "white" }}>@salsacolombia</p>
       <ButtonsContainer>
-        <Button target="_blank" href="https://m4f0dm-5173.preview.csb.app/">
+        {/* <Button target="_blank" href="https://m4f0dm-5173.preview.csb.app/">
           <ButtonImage src={foodPic} alt="food_icon" />
           <ButtonText> Let us pick your lunch</ButtonText>
           <BlankDiv />
-        </Button>
+        </Button> */}
         <Button
           target="_blank"
           href="https://www.facebook.com/salsacolombia.net"
@@ -112,9 +112,9 @@ function App() {
           <BlankDiv />
         </Button>
 
-        <Button target="_blank" href="#">
+        <Button target="_blank" href="https://instagram.com/salsacolombia">
           <ButtonImage src={insta} alt="insta_icon" />
-          <ButtonText>Instagram (NOT YET AVAILABLE)</ButtonText>
+          <ButtonText>Instagram </ButtonText>
           <BlankDiv />
         </Button>
 
