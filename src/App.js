@@ -106,7 +106,10 @@ function App() {
           <BlankDiv />
         </Button>
 
-        <Button target="_blank" href="https://venmo.com/u/Nelly-Maldonado">
+        <Button
+          target="_blank"
+          href="https://www.tiktok.com/@salsacolombiatiktok"
+        >
           <ButtonImage src={venmo} alt="venmo_icon" />
           <ButtonText>VENMO</ButtonText>
           <BlankDiv />
@@ -124,6 +127,11 @@ function App() {
           <BlankDiv />
         </Button>
 
+        <Button target="_blank" href="https://venmo.com/u/Nelly-Maldonado">
+          <ButtonImage src={venmo} alt="venmo_icon" />
+          <ButtonText>VENMO</ButtonText>
+          <BlankDiv />
+        </Button>
         <Button href="#">
           <ButtonImage src={lesson} alt="lesson_icon" />
           <ButtonText>Private Lessons (Coming soon)</ButtonText>
