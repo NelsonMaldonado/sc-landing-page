@@ -8,6 +8,7 @@ import facebookIcon from "../src/imgs/fb1.png"
 import insta from "../src/imgs/insta.png"
 import venmo from "../src/imgs/venmo_icon.png"
 import lesson from "../src/imgs/lesson.png"
+import tiktok from "../src/imgs/tiktok.png"
 
 const Container = styled.div`
   display: flex;
@@ -110,8 +111,8 @@ function App() {
           target="_blank"
           href="https://www.tiktok.com/@salsacolombiatiktok"
         >
-          <ButtonImage src={venmo} alt="venmo_icon" />
-          <ButtonText>VENMO</ButtonText>
+          <ButtonImage src={tiktok} alt="tiktok_icon" />
+          <ButtonText>tiktok</ButtonText>
           <BlankDiv />
         </Button>
 
