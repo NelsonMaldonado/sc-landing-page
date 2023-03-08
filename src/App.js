@@ -135,7 +135,7 @@ function App() {
         </Button>
         <Button href="https://salsacolombiaworkshop.eventbrite.com">
           <ButtonImage src={lesson} alt="lesson_icon" />
-          <ButtonText>>> March 19th 3:00pm workshop! BUY TICKETS HERE <<</ButtonText>
+          <ButtonText>March 19th 3:00pm workshop! BUY TICKETS HERE </ButtonText>
           <BlankDiv />
         </Button>
 
