@@ -98,6 +98,11 @@ function App() {
           <ButtonText> Let us pick your lunch</ButtonText>
           <BlankDiv />
         </Button> */}
+        <Button href="https://salsacolombiaworkshop.eventbrite.com">
+          <ButtonImage src={lesson} alt="lesson_icon" />
+          <ButtonText>March 19th 3:00pm workshop! BUY TICKETS HERE </ButtonText>
+          <BlankDiv />
+        </Button>
         <Button
           target="_blank"
           href="https://www.facebook.com/salsacolombia.net"
