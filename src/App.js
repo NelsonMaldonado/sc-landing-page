@@ -1,9 +1,8 @@
 import React from "react"
 import styled from "styled-components"
-import scdance from "../src/imgs/sc_dance.png"
+import scdance from "../src/imgs/logo3.jpg"
 import event from "../src/imgs/event.png"
 import music from "../src/imgs/music_icon.png"
-import foodPic from "../src/imgs/food_icon.png"
 import facebookIcon from "../src/imgs/fb1.png"
 import insta from "../src/imgs/insta.png"
 import venmo from "../src/imgs/venmo_icon.png"
@@ -136,11 +135,6 @@ function App() {
         <Button target="_blank" href="https://venmo.com/u/Nelly-Maldonado">
           <ButtonImage src={venmo} alt="venmo_icon" />
           <ButtonText>VENMO</ButtonText>
-          <BlankDiv />
-        </Button>
-        <Button href="https://salsacolombiaworkshop.eventbrite.com">
-          <ButtonImage src={lesson} alt="lesson_icon" />
-          <ButtonText>March 19th 3:00pm workshop! BUY TICKETS HERE </ButtonText>
           <BlankDiv />
         </Button>
 
