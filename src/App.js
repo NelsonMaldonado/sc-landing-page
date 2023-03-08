@@ -133,9 +133,9 @@ function App() {
           <ButtonText>VENMO</ButtonText>
           <BlankDiv />
         </Button>
-        <Button href="#">
+        <Button href="https://salsacolombiaworkshop.eventbrite.com">
           <ButtonImage src={lesson} alt="lesson_icon" />
-          <ButtonText>Private Lessons (Coming soon)</ButtonText>
+          <ButtonText>>> March 19th 3:00pm workshop! BUY TICKETS HERE <<</ButtonText>
           <BlankDiv />
         </Button>
 
