@@ -103,9 +103,11 @@ function App() {
           <ButtonText> WORKSHOP 03/19/2023 BUY TICKETS HERE </ButtonText>
           <BlankDiv />
         </Button>
-        <Button target="_blank" href="https://sfsalsafestival.com/">
+        <Button target="_blank" href="https://sfsalsafestival.com/tickets/">
           <ButtonImage src={event} alt="event_icon" />
-          <ButtonText>2023 San Francisco Salsa Festival</ButtonText>
+          <ButtonText>
+            2023 SAN FRANCISCO SALSA FESTIVAL TICKETS HERE
+          </ButtonText>
           <BlankDiv />
         </Button>
         <Button target="_blank" href="https://venmo.com/u/Nelly-Maldonado">
@@ -127,19 +129,13 @@ function App() {
           href="https://www.tiktok.com/@salsacolombiatiktok"
         >
           <ButtonImage src={tiktok} alt="tiktok_icon" />
-          <ButtonText>tiktok</ButtonText>
+          <ButtonText>TikTok</ButtonText>
           <BlankDiv />
         </Button>
 
         <Button target="_blank" href="https://instagram.com/salsacolombia">
           <ButtonImage src={insta} alt="insta_icon" />
           <ButtonText>Instagram </ButtonText>
-          <BlankDiv />
-        </Button>
-
-        <Button target="_blank" href="https://venmo.com/u/Nelly-Maldonado">
-          <ButtonImage src={venmo} alt="venmo_icon" />
-          <ButtonText>VENMO</ButtonText>
           <BlankDiv />
         </Button>
 
