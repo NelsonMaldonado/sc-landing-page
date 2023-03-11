@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import scdance from "../src/imgs/logo3.jpg"
-import event from "../src/imgs/event.png"
+import event from "../src/imgs/sflogo.png"
 import music from "../src/imgs/music_icon.png"
 import facebookIcon from "../src/imgs/fb1.png"
 import insta from "../src/imgs/insta.png"
@@ -47,7 +47,8 @@ const Button = styled.a`
   margin: 10px;
   padding: 10px 10px;
   background-color: #fdffff;
-  color: #a0dcff;
+  // color: #a0dcff;
+  color: black;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -102,6 +103,16 @@ function App() {
           <ButtonText> WORKSHOP 03/19/2023 BUY TICKETS HERE </ButtonText>
           <BlankDiv />
         </Button>
+        <Button target="_blank" href="https://sfsalsafestival.com/">
+          <ButtonImage src={event} alt="event_icon" />
+          <ButtonText>2023 San Francisco Salsa Festival</ButtonText>
+          <BlankDiv />
+        </Button>
+        <Button target="_blank" href="https://venmo.com/u/Nelly-Maldonado">
+          <ButtonImage src={venmo} alt="venmo_icon" />
+          <ButtonText>VENMO</ButtonText>
+          <BlankDiv />
+        </Button>
         <Button
           target="_blank"
           href="https://www.facebook.com/salsacolombia.net"
@@ -123,12 +134,6 @@ function App() {
         <Button target="_blank" href="https://instagram.com/salsacolombia">
           <ButtonImage src={insta} alt="insta_icon" />
           <ButtonText>Instagram </ButtonText>
-          <BlankDiv />
-        </Button>
-
-        <Button target="_blank" href="https://sfsalsafestival.com/">
-          <ButtonImage src={event} alt="event_icon" />
-          <ButtonText>2023 San Francisco Salsa Festival</ButtonText>
           <BlankDiv />
         </Button>
 
