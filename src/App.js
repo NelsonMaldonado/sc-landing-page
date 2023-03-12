@@ -8,6 +8,7 @@ import insta from "../src/imgs/insta.png"
 import venmo from "../src/imgs/venmo_icon.png"
 import lesson from "../src/imgs/lesson.png"
 import tiktok from "../src/imgs/tiktok.png"
+import youtube from "../src/imgs/youtube.png"
 
 const Container = styled.div`
   display: flex;
@@ -136,6 +137,11 @@ function App() {
         <Button target="_blank" href="https://instagram.com/salsacolombia">
           <ButtonImage src={insta} alt="insta_icon" />
           <ButtonText>Instagram </ButtonText>
+          <BlankDiv />
+        </Button>
+        <Button target="_blank" href="https://youtube.com/@SalsaColombiaUS">
+          <ButtonImage src={youtube} alt="insta_icon" />
+          <ButtonText>YouTube </ButtonText>
           <BlankDiv />
         </Button>
 
