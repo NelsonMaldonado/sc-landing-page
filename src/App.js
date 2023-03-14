@@ -150,7 +150,10 @@ function App() {
           href="https://youtube.com/playlist?list=PLgme2F6mX8Xx2vkKU2ABQcXXKrRxpxer7"
         >
           <ButtonImage src={music} alt="music_icon" />
-          <ButtonText> Salsa playlist</ButtonText>
+          <ButtonText>
+            {" "}
+            Need free Salsa music? Click on this playlist
+          </ButtonText>
           <BlankDiv />
         </Button>
       </ButtonsContainer>
