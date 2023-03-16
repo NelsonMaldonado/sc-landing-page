@@ -74,3 +74,4 @@ Features Coming up
 -Add about page with info about SC
 -Add a link to sell courses
 -Add a link to see instructors
+-make a section for the social media links together into one bar or at the bottom of the page
