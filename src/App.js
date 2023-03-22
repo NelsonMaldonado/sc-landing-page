@@ -99,9 +99,9 @@ function App() {
           <ButtonText> Let us pick your lunch</ButtonText>
           <BlankDiv />
         </Button> */}
-        <Button href="https://salsacolombiaworkshop.eventbrite.com">
+        <Button href="https://www.eventbrite.com/e/salsa-calena-workshop-colombian-salsa-san-jose-tickets-596287049617">
           <ButtonImage src={lesson} alt="lesson_icon" />
-          <ButtonText> WORKSHOP 03/19/2023 BUY TICKETS HERE </ButtonText>
+          <ButtonText> LAST WORKSHOP! 03/26/2023 BUY TICKETS HERE </ButtonText>
           <BlankDiv />
         </Button>
         <Button target="_blank" href="https://sfsalsafestival.com/tickets/">
