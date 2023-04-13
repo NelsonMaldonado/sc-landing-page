@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import scdance from "../src/imgs/logo3.jpg"
-import event from "../src/imgs/SFcopy.png"
+import event from "../src/imgs/logoSVNDF.jpg"
 import music from "../src/imgs/musiccopy.png"
 import facebookIcon from "../src/imgs/fb1copy.png"
 import insta from "../src/imgs/instacopy.png"
@@ -99,16 +99,17 @@ function App() {
           <ButtonText> Let us pick your lunch</ButtonText>
           <BlankDiv />
         </Button> */}
-        <Button href="https://www.eventbrite.com/e/salsa-calena-workshop-colombian-salsa-san-jose-tickets-596287049617">
+        {/* <Button href="https://www.eventbrite.com/e/salsa-calena-workshop-colombian-salsa-san-jose-tickets-596287049617">
           <ButtonImage src={lesson} alt="lesson_icon" />
           <ButtonText> LAST WORKSHOP! 03/26/2023 BUY TICKETS HERE </ButtonText>
           <BlankDiv />
-        </Button>
-        <Button target="_blank" href="https://sfsalsafestival.com/tickets/">
+        </Button> */}
+        <Button
+          target="_blank"
+          href="https://novadancefest.ticketspice.com/silicon-valley-nova-dance-festival"
+        >
           <ButtonImage src={event} alt="event_icon" />
-          <ButtonText>
-            2023 SAN FRANCISCO SALSA FESTIVAL TICKETS HERE
-          </ButtonText>
+          <ButtonText>2023 Silicon Vallley NOVA DANCE FEST</ButtonText>
           <BlankDiv />
         </Button>
         <Button target="_blank" href="https://venmo.com/u/Nelly-Maldonado">
