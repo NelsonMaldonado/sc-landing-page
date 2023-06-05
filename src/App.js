@@ -99,11 +99,11 @@ function App() {
           <ButtonText> Let us pick your lunch</ButtonText>
           <BlankDiv />
         </Button> */}
-        {/* <Button href="https://www.eventbrite.com/e/salsa-calena-workshop-colombian-salsa-san-jose-tickets-596287049617">
+        <Button href="https://wa.me/message/32YEQC62GNUBK1">
           <ButtonImage src={lesson} alt="lesson_icon" />
-          <ButtonText> LAST WORKSHOP! 03/26/2023 BUY TICKETS HERE </ButtonText>
+          <ButtonText> MEDELLIN WORKSHOP 06/11/2023 TICKETS </ButtonText>
           <BlankDiv />
-        </Button> */}
+        </Button>
         <Button
           target="_blank"
           href="https://novadancefest.ticketspice.com/silicon-valley-nova-dance-festival"
