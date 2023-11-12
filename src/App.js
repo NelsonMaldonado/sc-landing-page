@@ -104,14 +104,7 @@ function App() {
           <ButtonText> MEDELLIN WORKSHOP 06/11/2023 TICKETS </ButtonText>
           <BlankDiv />
         </Button>
-        <Button
-          target="_blank"
-          href="https://novadancefest.ticketspice.com/silicon-valley-nova-dance-festival"
-        >
-          <ButtonImage src={event} alt="event_icon" />
-          <ButtonText>2023 Silicon Vallley NOVA DANCE FEST</ButtonText>
-          <BlankDiv />
-        </Button>
+
         <Button target="_blank" href="https://venmo.com/u/Nelly-Maldonado">
           <ButtonImage src={venmo} alt="venmo_icon" />
           <ButtonText>VENMO</ButtonText>
