@@ -101,7 +101,7 @@ function App() {
         </Button> */}
         <Button href="https://www.eventbrite.com/e/salsa-calena-2-week-intensive-training-cali-colombia-tickets-759356785587?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl">
           <ButtonImage src={lesson} alt="lesson_icon" />
-          <ButtonText> MEDELLIN WORKSHOP 06/11/2023 TICKETS </ButtonText>
+          <ButtonText> 2 Week Salsa Calena Intensive! </ButtonText>
           <BlankDiv />
         </Button>
 
