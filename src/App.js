@@ -99,7 +99,7 @@ function App() {
           <ButtonText> Let us pick your lunch</ButtonText>
           <BlankDiv />
         </Button> */}
-        <Button href="https://wa.me/message/32YEQC62GNUBK1">
+        <Button href="https://www.eventbrite.com/e/salsa-calena-2-week-intensive-training-cali-colombia-tickets-759356785587?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl">
           <ButtonImage src={lesson} alt="lesson_icon" />
           <ButtonText> MEDELLIN WORKSHOP 06/11/2023 TICKETS </ButtonText>
           <BlankDiv />
