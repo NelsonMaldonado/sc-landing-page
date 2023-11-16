@@ -93,6 +93,15 @@ function App() {
         <Avatar src={scdance} alt="Avatar" />
       </AvatarContainer>
       <p style={{ color: "white" }}>@salsacolombia</p>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/LWhrtuztn0g?si=ooNshj0Jo-TYOlnW"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
       <ButtonsContainer>
         {/* <Button target="_blank" href="https://m4f0dm-5173.preview.csb.app/">
           <ButtonImage src={foodPic} alt="food_icon" />
