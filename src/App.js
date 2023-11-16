@@ -85,6 +85,19 @@ const Footer = styled.footer`
   padding: 15px 0 20px 0;
   font-size: 12px;
 `
+const YoutubeFrame = styled.div`
+width: 560px;
+height: 315px;
+// border: 2px solid #333;  
+margin-top: 20px;
+margin-bottom: 90px;
+  @media (max-width: 767px) {
+    width: 70%;
+    height: 250px;
+     
+    }
+  }
+`
 
 function App() {
   return (
@@ -93,15 +106,21 @@ function App() {
         <Avatar src={scdance} alt="Avatar" />
       </AvatarContainer>
       <p style={{ color: "white" }}>@salsacolombia</p>
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/LWhrtuztn0g?si=ooNshj0Jo-TYOlnW"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
-      ></iframe>
+      <YoutubeFrame>
+        <iframe
+          width="100%"
+          height="100%"
+          src="https://www.youtube.com/embed/LWhrtuztn0g?si=ooNshj0Jo-TYOlnW"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <p style={{ color: "white", fontSize: "12" }}>
+          Punta del pie Tutorial{" "}
+        </p>
+      </YoutubeFrame>
+
       <ButtonsContainer>
         {/* <Button target="_blank" href="https://m4f0dm-5173.preview.csb.app/">
           <ButtonImage src={foodPic} alt="food_icon" />
