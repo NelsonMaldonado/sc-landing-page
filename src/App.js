@@ -92,7 +92,7 @@ height: 315px;
 margin-top: 20px;
 margin-bottom: 90px;
   @media (max-width: 767px) {
-    width: 90%;
+    width: 890%;
     height: 250px;
      
     }
