@@ -1,7 +1,6 @@
 import React from "react"
 import styled from "styled-components"
 import scdance from "../src/imgs/logo3.jpg"
-import event from "../src/imgs/logoSVNDF.jpg"
 import music from "../src/imgs/musiccopy.png"
 import facebookIcon from "../src/imgs/fb1copy.png"
 import insta from "../src/imgs/instacopy.png"
