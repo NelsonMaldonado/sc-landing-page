@@ -179,7 +179,7 @@ function App() {
         </Button>
       </ButtonsContainer>
       <Footer>
-        © SalsaColombia Dance Academy USA, All Rights Reserved 2023{" "}
+        © SalsaColombia Dance Academy USA, All Rights Reserved 2024{" "}
       </Footer>
     </Container>
   )
