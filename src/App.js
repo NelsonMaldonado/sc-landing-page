@@ -8,7 +8,6 @@ import venmo from "../src/imgs/venmo_icon copy.png"
 import lesson from "../src/imgs/lessoncopy.png"
 import tiktok from "../src/imgs/tiktokcopy.png"
 import youtube from "../src/imgs/youtube.png"
-import Millionaire from "./components/millionaire"
 
 const Container = styled.div`
   display: flex;
