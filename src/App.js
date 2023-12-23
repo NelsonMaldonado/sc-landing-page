@@ -107,18 +107,27 @@ function App() {
       </AvatarContainer>
       <p style={{ color: "white" }}>@salsacolombia</p>
       <YoutubeFrame>
+        {/* <iframe
+          src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fsalsacolombia.net%2Fvideos%2F2428469150668918%2F&show_text=false&width=560&t=0"
+          width="560"
+          height="314"
+          style="border:none;overflow:hidden"
+          scrolling="no"
+          frameborder="0"
+          allowfullscreen="true"
+          allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+          allowFullScreen="true"
+        ></iframe> */}
         <iframe
           width="100%"
           height="100%"
-          src="https://www.youtube.com/embed/LWhrtuztn0g?si=ooNshj0Jo-TYOlnW"
+          src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fsalsacolombia.net%2Fvideos%2F2428469150668918%2F&show_text=false&width=560&t=0"
           title="YouTube video player"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
+          allowFullScreen={true}
         ></iframe>
-        <p style={{ color: "white", fontSize: "12" }}>
-          Punta del pie Tutorial{" "}
-        </p>
+        <p style={{ color: "white", fontSize: "12" }}>New Choreo! </p>
       </YoutubeFrame>
       {/* <Millionaire /> */}
       <ButtonsContainer>
