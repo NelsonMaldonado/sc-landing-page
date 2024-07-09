@@ -135,9 +135,12 @@ function App() {
           <ButtonText> Let us pick your lunch</ButtonText>
           <BlankDiv />
         </Button> */}
-        <Button href="https://www.eventbrite.com/e/salsa-calena-2-week-intensive-training-cali-colombia-tickets-759356785587?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl">
+        <Button href="https://www.eventbrite.com/e/salsa-calena-with-brando-party-shows-tickets-934903199637?aff=oddtdtcreator">
           <ButtonImage src={lesson} alt="lesson_icon" />
-          <ButtonText> 2 Week Salsa Calena Intensive Tickets 🎫 </ButtonText>
+          <ButtonText>
+            {" "}
+            SALSA CALEÑA WORKSHOP AND PARTY TICKETS WITH BRANDO AND VIVI 🎫{" "}
+          </ButtonText>
           <BlankDiv />
         </Button>
 
