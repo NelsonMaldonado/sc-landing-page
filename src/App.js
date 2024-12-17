@@ -5,7 +5,7 @@ import music from "../src/imgs/musiccopy.png"
 import facebookIcon from "../src/imgs/fb1copy.png"
 import insta from "../src/imgs/instacopy.png"
 import venmo from "../src/imgs/venmo_icon copy.png"
-import lesson from "../src/imgs/lessoncopy.png"
+// import lesson from "../src/imgs/lessoncopy.png"
 import tiktok from "../src/imgs/tiktokcopy.png"
 import youtube from "../src/imgs/youtube.png"
 
@@ -135,14 +135,14 @@ function App() {
           <ButtonText> Let us pick your lunch</ButtonText>
           <BlankDiv />
         </Button> */}
-        <Button href="https://www.eventbrite.com/e/salsa-calena-with-brando-party-shows-tickets-934903199637?aff=oddtdtcreator">
+        {/* <Button href="https://www.eventbrite.com/e/salsa-calena-with-brando-party-shows-tickets-934903199637?aff=oddtdtcreator">
           <ButtonImage src={lesson} alt="lesson_icon" />
           <ButtonText>
             {" "}
             SALSA CALEÑA WORKSHOP AND PARTY TICKETS WITH BRANDO AND VIVI 🎫{" "}
           </ButtonText>
           <BlankDiv />
-        </Button>
+        </Button> */}
 
         <Button target="_blank" href="https://venmo.com/u/Nelly-Maldonado">
           <ButtonImage src={venmo} alt="venmo_icon" />
